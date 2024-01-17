@@ -1,5 +1,5 @@
 from flask import Flask,request,render_template
-import google.generativeai as palm
+import time,requests,json
 app = Flask(__name__)
 
 headers = {
